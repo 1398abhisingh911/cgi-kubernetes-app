@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Menu</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="docker.css" />
+    <script src="docker.js"></script>
+</head>
+
+<body>
+    <h1 style="text-align: center">Welcome to Kubernetes Web App</h1>
+    <br />
+    <br />
+    <div>
+        <h2 style="text-align: center">For Custom Commands</h1>
+            <br>
+            <h2 align="center">
+                <p>
+                    [root@localhost ~]#
+                    <input id="input" required="True" type="text" placeholder="Enter your required command" style="width: 50%; margin-bottom: 10px" />
+                    <br>
+                    <button class="button" onclick="lw2();">Submit</button>
+                </p>
+            </h2>
+    </div>
+    <br>
+    <br>
+    <div>
+        <h2 style="text-align: center">Launch Pod</h1>
+            <br>
+            <h2 align="center">
+                <p>
+                    [root@localhost ~]#
+                    <br />
+                    <input id="input1" required="True" type="text" placeholder="Enter image to launch pod from" style="width: 50%; margin-bottom: 10px" />
+                    <input id="input2" required="True" type="text" placeholder="Enter pod name" style="width: 50%; margin-bottom: 10px" />
+                    <br />
+                    <button class="button" onclick="lw3();">Submit</button>
+                </p>
+            </h2>
+    </div>
+    <div>
+        <h2 style="text-align: center">Delete Pod</h1>
+            <br>
+            <h2 align="center">
+                <p>
+                    [root@localhost ~]#
+                    <br />
+                    <input id="input4" required="True" type="text" placeholder="Enter pod name" style="width: 50%; margin-bottom: 10px" />
+                    <br />
+                    <button class="button" onclick="lw4();">Submit</button>
+                </p>
+            </h2>
+    </div>
+    <br>
+    <br>
+    <div>
+        <h2 style="text-align: center">Launch Deployment</h1>
+            <br>
+            <h2 align="center">
+                <p>
+                    [root@localhost ~]#
+                    <br />
+                    <input id="input5" required="True" type="text" placeholder="Enter deployment name" style="width: 50%; margin-bottom: 10px" />
+                    <br />
+                    <input id="input6" required="True" type="text" placeholder="Enter image name" style="width: 50%; margin-bottom: 10px" />
+                    <br />
+                    <button class="button" onclick="lw5();">Submit</button>
+                </p>
+            </h2>
+    </div>
+    <br>
+    <br>
+    <div>
+        <h2 style="text-align: center">Scale Deployment</h1>
+            <br>
+            <h2 align="center">
+                <p>
+                    [root@localhost ~]#
+                    <br />
+                    <input id="input7" required="True" type="text" placeholder="Enter deployment name" style="width: 50%; margin-bottom: 10px" />
+                    <br />
+                    <input id="input8" required="True" type="text" placeholder="Enter replicas" style="width: 50%; margin-bottom: 10px" />
+                    <br />
+                    <button class="button" onclick="lw6();">Submit</button>
+                </p>
+            </h2>
+    </div>
+    <br>
+    <br>
+    <div>
+        <h2 style="text-align: center">Expose Deployment</h1>
+            <br>
+            <h2 align="center">
+                <p>
+                    [root@localhost ~]#
+                    <br />
+                    <input id="input9" required="True" type="text" placeholder="Enter deployment name" style="width: 50%; margin-bottom: 10px" />
+                    <input id="input10" required="True" type="text" placeholder="Enter port" style="width: 50%; margin-bottom: 10px" />
+                    <br>
+                    <button class="button" onclick="lw7();">Submit</button>
+                </p>
+            </h2>
+    </div>
+    <br>
+    <br>
+    <div>
+        <h2 style="text-align: center">Delete Deployment</h1>
+            <br>
+            <h2 align="center">
+                <p>
+                    [root@localhost ~]#
+                    <br />
+                    <input id="input11" required="True" type="text" placeholder="Enter deployment name" style="width: 50%; margin-bottom: 10px" />
+                    <br>
+                    <button class="button" onclick="lw8();">Submit</button>
+                </p>
+            </h2>
+    </div>
+    <br>
+    <br>
+
+    <div>
+        <h2 style="text-align: center">Clear entire environment</h1>
+            <br>
+            <h2 align="center">
+                <p>
+                    <br />
+                    <button class="button" onclick="lw9();">Submit</button>
+                </p>
+            </h2>
+    </div>
+    <pre>
+         <h2 style="color:rgb(0, 0, 0)">
+                <div id="d1" align="center" ></div>
+         </h2>
+    </pre>
+</body>
+
+</html>
