@@ -5,11 +5,11 @@ This app has the capability to run K8S commands on remote server and display the
 <p>
 	<h2>Working</h2>
 		<br>
-        <img  src="/Images/1.png" width="100%" >
+        <img  src="1.png" width="100%" >
 		<br>
-        <img src="/Images/2.png" width=100%" >
+        <img src="2.png" width=100%" >
 		<br>
-        <img src="/Images/3.png" width="100%">
+        <img src="3.png" width="100%">
 	<br>
 
 </p>
